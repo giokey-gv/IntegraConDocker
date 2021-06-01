@@ -1,0 +1,29 @@
+version: '3.1'
+
+services:
+
+  wordpress:
+    container_name: servidor_wp
+    image: wordpress
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: user_poli
+      WORDPRESS_DB_PASSWORD: 123456
+      WORDPRESS_DB_NAME: bd_poli
+    ports:
+      - 80:80
+    volumes:
+      - /opt/wordpress:/var/www/html/wp-content
+
+  db:
+    container_name: db_mysql
+    image: mariadb
+    restart: always
+    environment:
+      MYSQL_DATABASE: bd_poli
+      MYSQL_USER: user_poli
+      MYSQL_PASSWORD: 123456
+      MYSQL_ROOT_PASSWORD: 123456
+    volumes:
+      - /opt/mysql_wp:/var/lib/mysql
