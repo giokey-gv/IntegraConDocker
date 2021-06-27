@@ -25,11 +25,14 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^12.1.0",
+<<<<<<< HEAD:package.json
     "@angular-eslint/builder": "12.2.0",
     "@angular-eslint/eslint-plugin": "12.2.0",
     "@angular-eslint/eslint-plugin-template": "12.2.0",
     "@angular-eslint/schematics": "12.2.0",
     "@angular-eslint/template-parser": "12.2.0",
+=======
+>>>>>>> 7aef00c7131016dd2c7506203ae5e4073503b453:pagina-angular/package.json
     "@angular/cli": "~12.1.0",
     "@angular/compiler-cli": "~12.1.0",
     "@types/jasmine": "~3.6.0",
