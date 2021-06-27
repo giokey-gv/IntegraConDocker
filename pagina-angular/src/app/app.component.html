@@ -1,328 +1,324 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <!-- Theme Made By www.w3schools.com -->
-  <title>pagina-angular</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  
-</head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#myPage"><img src="img/imagen1.png" id="logo" width="150" height="70"></a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">INICIO</a></li>
-        <li><a href="#services">SERVICIOS</a></li>
-        <li><a href="#portfolio">PORTAFOLIO</a></li>
-        <li><a href="#pricing">PRECIOS</a></li>
-        <li><a href="#contact">CONTACTO</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<div class="jumbotron text-center">
-  <h1>Web Integracion continua</h1> 
-  <p>Integraciones especializadas</p> 
-  <form>
-    <div class="input-group">
-      <input type="email" class="form-control" size="50" placeholder="Dirección de correo electrónico" required>
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-danger">Subscribete</button>
+<div id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#myPage"><img src="./img/imagen1.png" id="logo" width="150" height="70"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">INICIO</a></li>
+          <li><a href="#services">SERVICIOS</a></li>
+          <li><a href="#portfolio">PORTAFOLIO</a></li>
+          <li><a href="#pricing">PRECIOS</a></li>
+          <li><a href="#contact">CONTACTO</a></li>
+        </ul>
       </div>
     </div>
-  </form>
-</div>
+  </nav>
 
-<!-- Container (About Section) -->
-<div id="about" class="container-fluid">
-  <div class="row">
-    <div class="col-sm-8">
-      <h2>que es integración continua</h2><br>
-      <h4>La integración continua es una práctica de desarrollo de software mediante la cual los desarrolladores combinan los cambios en el código en un repositorio central de forma periódica, tras lo cual se ejecutan versiones y pruebas automáticas. La integración continua se refiere en su mayoría a la fase de creación o integración del proceso de publicación de software y conlleva un componente de automatización (p. ej., CI o servicio de versiones) y un componente cultural (p. ej., aprender a integrar con frecuencia). Los objetivos clave de la integración continua consisten en encontrar y arreglar errores con mayor rapidez, mejorar la calidad del software y reducir el tiempo que se tarda en validar y publicar nuevas actualizaciones de software.</h4><br>
-      <p>Con la integración continua, los desarrolladores envían los cambios de forma periódica a un repositorio compartido con un sistema de control de versiones como Git. Antes de cada envío, los desarrolladores pueden elegir ejecutar pruebas de unidad local en el código como medida de verificación adicional antes de la integración. Un servicio de integración continua crea y ejecuta automáticamente pruebas de unidad en los nuevos cambios realizados en el código para identificar inmediatamente cualquier error.</p>
-      <br><button class="btn btn-default btn-lg">Contactanos</button>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-globe logo"></span>
-    </div>
+  <div class="jumbotron text-center">
+    <h1>Web Integracion continua</h1>
+    <p>Integraciones especializadas</p>
+    <form>
+      <div class="input-group">
+        <input type="email" class="form-control" size="50" placeholder="Dirección de correo electrónico" required>
+        <div class="input-group-btn">
+          <button type="button" class="btn btn-danger">Subscribete</button>
+        </div>
+      </div>
+    </form>
   </div>
-</div>
 
-<div class="container-fluid bg-grey">
-  <div class="row">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-globe logo slideanim"></span>
-    </div>
-    <div class="col-sm-8">
-      <h2>Nuestros Valores</h2><br>
-      <h4><strong>MISION:</strong> Nuestra mision es Educar a todos los que les interese esta aplicacion web sobre todo lo relacionado con la integracion continua.</h4><br>
-      <p><strong>VISION:</strong> Somos un grupo de soñadores estudiantes de ingenieria de software que llegaran muy lejos en la vida y programaran su destino y su vida para cumlir sus sueños.</p>
-    </div>
-  </div>
-</div>
-
-<!-- Container (Services Section) -->
-<div id="services" class="container-fluid text-center">
-  <h2>SERVICIOS</h2>
- 
-  <br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-off logo-small"></span>
-      <h4>POWER</h4>
-      <p>Entra al mundo..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>LOVE</h4>
-      <p>Ama lo que haces..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock logo-small"></span>
-      <h4>Jobs</h4>
-      <p>Trabaja con nosotros..</p>
-    </div>
-  </div>
-  <br><br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-leaf logo-small"></span>
-      <h4>GREEN</h4>
-      <p>Cuida el planeta..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>CERTIFIED</h4>
-      <p>Obten tus certificados..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-wrench logo-small"></span>
-      <h4 style="color:#303030;">HARD WORK</h4>
-      <p>Un trabajo duro al exito..</p>
-    </div>
-  </div>
-</div>
-
-<!-- Container (Portfolio Section) -->
-<div id="portfolio" class="container-fluid text-center bg-grey">
-  <h2>Portfolio</h2><br>
-  <h4>Cual quisieras conocer?</h4>
-  <div class="row text-center slideanim">
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="img/paris.jpg"  alt="Paris" width="400" height="300">
-        <p><strong>Paris</strong></p>
-        <p>Estudia al lado de la torre Eifel</p>
+  <!-- Container (About Section) -->
+  <div id="about" class="container-fluid">
+    <div class="row">
+      <div class="col-sm-8">
+        <h2>que es integración continua</h2><br>
+        <h4>La integración continua es una práctica de desarrollo de software mediante la cual los desarrolladores
+          combinan los cambios en el código en un repositorio central de forma periódica, tras lo cual se ejecutan
+          versiones y pruebas automáticas. La integración continua se refiere en su mayoría a la fase de creación o
+          integración del proceso de publicación de software y conlleva un componente de automatización (p. ej., CI o
+          servicio de versiones) y un componente cultural (p. ej., aprender a integrar con frecuencia). Los objetivos
+          clave de la integración continua consisten en encontrar y arreglar errores con mayor rapidez, mejorar la
+          calidad del software y reducir el tiempo que se tarda en validar y publicar nuevas actualizaciones de
+          software.</h4><br>
+        <p>Con la integración continua, los desarrolladores envían los cambios de forma periódica a un repositorio
+          compartido con un sistema de control de versiones como Git. Antes de cada envío, los desarrolladores pueden
+          elegir ejecutar pruebas de unidad local en el código como medida de verificación adicional antes de la
+          integración. Un servicio de integración continua crea y ejecuta automáticamente pruebas de unidad en los
+          nuevos cambios realizados en el código para identificar inmediatamente cualquier error.</p>
+        <br><button class="btn btn-default btn-lg">Contactanos</button>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-globe logo"></span>
       </div>
     </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="img/new york.jpg" alt="New York" width="400" height="300">
-        <p><strong>New York</strong></p>
-        <p>Deslumbrate en esta gran ciudad</p>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="img/san francisco.jpeg" alt="San Francisco" width="400" height="300">
-        <p><strong>San Francisco</strong></p>
-        <p>Visita la ciudad de los sueños perdidos</p>
-      </div>
-    </div>
-  </div><br>
-  
-  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <h4>"Esta empresa es la mejor. Estoy tan feliz con el resultado !"<br><span>No lo Dudes!!!</span></h4>
-      </div>
-      <div class="item">
-        <h4>"Un solo mundo... WOW!!"<br><span>Ven a descubrirlo</span></h4>
-      </div>
-      <div class="item">
-        <h4>"¿Podría ... Estar más contento con esta empresa? "<br><span>Siempre mas!!!</span></h4>
-      </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
-</div>
 
-<!-- Container (Pricing Section) -->
-<div id="pricing" class="container-fluid">
-  <div class="text-center">
-    <h2>Precios</h2>
-    <h4>Elija un plan de pago que funcione para usted</h4>
-  </div>
-  <div class="row slideanim">
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Basic</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>20</strong> Pro</p>
-          <p><strong>15</strong> Hard</p>
-          <p><strong>5</strong> Medium</p>
-          <p><strong>2</strong> Basic</p>
-        </div>
-        <div class="panel-footer">
-          <h3>$19</h3>
-          <h4>Por mes</h4>
-          <button class="btn btn-lg">Sign Up</button>
-        </div>
-      </div>      
-    </div>     
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Pro</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>50</strong> Pro</p>
-          <p><strong>25</strong> Hard</p>
-          <p><strong>10</strong> Medium</p>
-          <p><strong>5</strong> Basic</p>
-        </div>
-        <div class="panel-footer">
-          <h3>$29</h3>
-          <h4>Por mes</h4>
-          <button class="btn btn-lg">Sign Up</button>
-        </div>
-      </div>      
-    </div>       
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Premium</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>100</strong> Pro</p>
-          <p><strong>50</strong> Hard</p>
-          <p><strong>25</strong> Medium</p>
-          <p><strong>10</strong> Basic</p>
-        </div>
-        <div class="panel-footer">
-          <h3>$49</h3>
-          <h4>Por mes</h4>
-          <button class="btn btn-lg">Sign Up</button>
-        </div>
-      </div>      
-    </div>    
-  </div>
-</div>
-
-<!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center">CONTACTOS</h2>
-  <div class="row">
-    <div class="col-sm-5">
-      <p>Contáctanos y te responderemos en un plazo de 24 horas.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> bogota, col</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +57 3173814001</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> integracontinua@poligran.edu.co</p>
+  <div class="container-fluid bg-grey">
+    <div class="row">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-globe logo slideanim"></span>
+      </div>
+      <div class="col-sm-8">
+        <h2>Nuestros Valores</h2><br>
+        <h4><strong>MISION:</strong> Nuestra mision es Educar a todos los que les interese esta aplicacion web sobre
+          todo lo relacionado con la integracion continua.</h4><br>
+        <p><strong>VISION:</strong> Somos un grupo de soñadores estudiantes de ingenieria de software que llegaran muy
+          lejos en la vida y programaran su destino y su vida para cumlir sus sueños.</p>
+      </div>
     </div>
-  <h2 class="text-center">CONTACTO</h2>
-  <div class="row">
-   
-    <div class="col-sm-7 slideanim">
+  </div>
+
+  <!-- Container (Services Section) -->
+  <div id="services" class="container-fluid text-center">
+    <h2>SERVICIOS</h2>
+
+    <br>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-off logo-small"></span>
+        <h4>POWER</h4>
+        <p>Entra al mundo..</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-heart logo-small"></span>
+        <h4>LOVE</h4>
+        <p>Ama lo que haces..</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-lock logo-small"></span>
+        <h4>Jobs</h4>
+        <p>Trabaja con nosotros..</p>
+      </div>
+    </div>
+    <br><br>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-leaf logo-small"></span>
+        <h4>GREEN</h4>
+        <p>Cuida el planeta..</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-certificate logo-small"></span>
+        <h4>CERTIFIED</h4>
+        <p>Obten tus certificados..</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-wrench logo-small"></span>
+        <h4 style="color:#303030;">HARD WORK</h4>
+        <p>Un trabajo duro al exito..</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Container (Portfolio Section) -->
+  <div id="portfolio" class="container-fluid text-center bg-grey">
+    <h2>Portfolio</h2><br>
+    <h4>Cual quisieras conocer?</h4>
+    <div class="row text-center slideanim">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="img/paris.jpg" alt="Paris" width="400" height="300">
+          <p><strong>Paris</strong></p>
+          <p>Estudia al lado de la torre Eifel</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="img/new york.jpg" alt="New York" width="400" height="300">
+          <p><strong>New York</strong></p>
+          <p>Deslumbrate en esta gran ciudad</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="img/san francisco.jpeg" alt="San Francisco" width="400" height="300">
+          <p><strong>San Francisco</strong></p>
+          <p>Visita la ciudad de los sueños perdidos</p>
+        </div>
+      </div>
+    </div><br>
+
+    <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <h4>"Esta empresa es la mejor. Estoy tan feliz con el resultado !"<br><span>No lo Dudes!!!</span></h4>
+        </div>
+        <div class="item">
+          <h4>"Un solo mundo... WOW!!"<br><span>Ven a descubrirlo</span></h4>
+        </div>
+        <div class="item">
+          <h4>"¿Podría ... Estar más contento con esta empresa? "<br><span>Siempre mas!!!</span></h4>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Container (Pricing Section) -->
+  <div id="pricing" class="container-fluid">
+    <div class="text-center">
+      <h2>Precios</h2>
+      <h4>Elija un plan de pago que funcione para usted</h4>
+    </div>
+    <div class="row slideanim">
+      <div class="col-sm-4 col-xs-12">
+        <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h1>Basic</h1>
+          </div>
+          <div class="panel-body">
+            <p><strong>20</strong> Pro</p>
+            <p><strong>15</strong> Hard</p>
+            <p><strong>5</strong> Medium</p>
+            <p><strong>2</strong> Basic</p>
+          </div>
+          <div class="panel-footer">
+            <h3>$19</h3>
+            <h4>Por mes</h4>
+            <button class="btn btn-lg">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-xs-12">
+        <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h1>Pro</h1>
+          </div>
+          <div class="panel-body">
+            <p><strong>50</strong> Pro</p>
+            <p><strong>25</strong> Hard</p>
+            <p><strong>10</strong> Medium</p>
+            <p><strong>5</strong> Basic</p>
+          </div>
+          <div class="panel-footer">
+            <h3>$29</h3>
+            <h4>Por mes</h4>
+            <button class="btn btn-lg">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-xs-12">
+        <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h1>Premium</h1>
+          </div>
+          <div class="panel-body">
+            <p><strong>100</strong> Pro</p>
+            <p><strong>50</strong> Hard</p>
+            <p><strong>25</strong> Medium</p>
+            <p><strong>10</strong> Basic</p>
+          </div>
+          <div class="panel-footer">
+            <h3>$49</h3>
+            <h4>Por mes</h4>
+            <button class="btn btn-lg">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Container (Contact Section) -->
+  <div id="contact" class="container-fluid bg-grey">
+    <h2 class="text-center">CONTACTOS</h2>
+    <div class="row">
+      <div class="col-sm-5">
+        <p>Contáctanos y te responderemos en un plazo de 24 horas.</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span> bogota, col</p>
+        <p><span class="glyphicon glyphicon-phone"></span> +57 3173814001</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> integracontinua@poligran.edu.co</p>
+      </div>
+      <h2 class="text-center">CONTACTO</h2>
       <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-        </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-        </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-      <div class="row">
-        <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
+
+        <div class="col-sm-7 slideanim">
+          <div class="row">
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+            </div>
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+            </div>
+          </div>
+          <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+          <div class="row">
+            <div class="col-sm-12 form-group">
+              <button class="btn btn-default pull-right" type="submit">Send</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- Image of location/map -->
+    <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+    <footer class="container-fluid text-center">
+      <a href="#myPage" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p>pagina con Angular<a href="https://angular.io/" title="">angular.io</a></p>
+    </footer>
+
+
+    <script>
+      $(document).ready(function () {
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 900, function () {
+
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+
+        $(window).scroll(function () {
+          $(".slideanim").each(function () {
+            var pos = $(this).offset().top;
+
+            var winTop = $(window).scrollTop();
+            if (pos < winTop + 600) {
+              $(this).addClass("slide");
+            }
+          });
+        });
+      })
+    </script>
   </div>
-</div>
-
-<!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
-
-<footer class="container-fluid text-center">
-  <a href="#myPage" title="To Top">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a>
-  <p>pagina con Angular<a href="https://angular.io/" title="">angular.io</a></p>
-</footer>
-
-
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-  
-  $(window).scroll(function() {
-    $(".slideanim").each(function(){
-      var pos = $(this).offset().top;
-
-      var winTop = $(window).scrollTop();
-        if (pos < winTop + 600) {
-          $(this).addClass("slide");
-        }
-    });
-  });
-})
-</script>
-
-</body>
-</html>
