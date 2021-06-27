@@ -14,6 +14,10 @@ notifications:
   email:
     recipients:
       - judiazca2@poligran.edu.co
+      - lucastillo@poligran.edu.co
+      - eivelezb@poligran.edu.co
+      - frcontreras3@poligran.edu.co
+      - jaruapen@poligran.edu.co
     on_success: always
     on_failure: always
 
