@@ -1,0 +1,24 @@
+language: node_js
+node_js:
+  - "12.18.3"
+
+dist: trusty
+
+sudo: required
+
+branches:
+  only:
+  - master
+
+notifications:
+  email:
+    recipients:
+      - judiazca2@poligran.edu.co
+    on_success: always
+    on_failure: always
+
+before_script:
+  - npm install -g @angular/cli
+
+script:
+- ng build --prod
