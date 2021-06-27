@@ -113,6 +113,7 @@
   },
   "defaultProject": "pagina-angular",
   "cli": {
-    "defaultCollection": "@angular-eslint/schematics"
+    "defaultCollection": "@angular-eslint/schematics",
+    "analytics": "2b3024ad-ddd7-4b3f-b435-a2abbd8f1704"
   }
 }
