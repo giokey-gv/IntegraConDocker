@@ -6,17 +6,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav-bar-menu.component.css']
 })
 export class NavBarMenuComponent implements OnInit {
+  isValue: number = 0;
 
-  constructor() { 
+  constructor() {
     // do nothing.
   }
 
   ngOnInit(): void {
-    this.foo()
+    this.toggle0()
   }
 
-  foo(){
-    // do nothing.
+  toggle0() {this.isValue = 0;}
+
+  toggle(num: number) { 
+    this.isValue = num;
+    console.log('boton presionado ',num);
   }
 
 }
