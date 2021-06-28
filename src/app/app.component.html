@@ -1,43 +1,8 @@
-Prueba
-
 <div id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#myPage"><img src="app/img/Logo Poli.jpg" id="logo" width="150" height="70"></a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#about">INICIO</a></li>
-          <li><a href="#services">GITHUB</a></li>
-          <li><a href="#portfolio">ZENHUB</a></li>
-          <li><a href="#pricing">CONTENEDORES</a></li>
-          <li><a href="#contact">CREADORES</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <div class="jumbotron text-center">
-    <h1>Implementacion Herramientas de Integracion Continua</h1>
-    <p>Ingenieria de Software</p>
-    <form>
-      <div class="input-group">
-        <input type="email" class="form-control" size="50" placeholder="Dirección de correo electrónico" required>
-        <div class="input-group-btn">
-          <button type="button" class="btn btn-danger">Subscribete</button>
-        </div>
-      </div>
-    </form>
-  </div>
-
+  
+  <app-header></app-header>
   <!-- Container (About Section) -->
-  <div id="about" class="container-fluid">
+  <div id="inicio" class="container-fluid">
     <div class="row">
       <div class="col-sm-8">
         <h2>que es integración continua</h2><br>
@@ -78,7 +43,7 @@ Prueba
   </div>
 
   <!-- Container (Services Section) -->
-  <div id="services" class="container-fluid text-center">
+  <div id="github" class="container-fluid text-center">
     <h2>GITHUB</h2>
 <P>Dando click a nuestro enlace puedes seguinos en nuestros repositorios</P>
 <p>Enlace Directo   <a href="https://github.com/giokey-gv/IntegraConDocker.git" title="">GitHub</a></p>
@@ -121,7 +86,7 @@ Prueba
   </div>
 
   <!-- Container (Portfolio Section) -->
-  <div id="portfolio" class="container-fluid text-center bg-grey">
+  <div id="zenhub" class="container-fluid text-center bg-grey">
     <h2>ZenHUb</h2><br>
     <h4>Quisieras conocer nuestro proyecto?</h4>
     <p>Enlace Directo   <a href="https://app.zenhub.com/workspaces/integracin-continua-60cd32b17c6242001061427f/board" title="">ZenHub</a></p>
@@ -183,7 +148,7 @@ Prueba
   </div>
 
   <!-- Container (Pricing Section) -->
-  <div id="pricing" class="container-fluid">
+  <div id="dockers" class="container-fluid">
     <div class="text-center">
       <h2>CONTENEDORES</h2>
       <h4>DOCKERS</h4>
@@ -249,8 +214,18 @@ Prueba
     </div>
   </div>
 
+  <!--travis-->
+  <div id="travis" class="container-fluid bg-grey">
+    <h2>Travis</h2>
+  </div>
+
+  <!--codepipeline-->
+  <div id="codepipeline" class="container-fluid">
+    <h2>CodePipeline</h2>
+  </div>
+
   <!-- Container (Contact Section) -->
-  <div id="contact" class="container-fluid bg-grey">
+  <div id="creadores" class="container-fluid bg-grey">
     <h2 class="text-center">ING DE SOFTWARE</h2>
    
       <h2 class="text-center">
