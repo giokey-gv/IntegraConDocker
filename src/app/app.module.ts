@@ -7,6 +7,7 @@ import { BodyComponent } from './shared/body/body.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { NavBarMenuComponent } from './shared/nav-bar-menu/nav-bar-menu.component';
 import { TravisComponent } from './travis/travis.component';
+import { CodepipelineComponent } from './codepipeline/codepipeline.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { TravisComponent } from './travis/travis.component';
     BodyComponent,
     FooterComponent,
     NavBarMenuComponent,
-    TravisComponent
+    TravisComponent,
+    CodepipelineComponent
   ],
   imports: [
     BrowserModule
