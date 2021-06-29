@@ -8,6 +8,9 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { NavBarMenuComponent } from './shared/nav-bar-menu/nav-bar-menu.component';
 import { TravisComponent } from './travis/travis.component';
 import { CodepipelineComponent } from './codepipeline/codepipeline.component';
+import { GithubComponent } from './github/github.component';
+import { DockersComponent } from './dockers/dockers.component';
+import { ZenhubComponent } from './zenhub/zenhub.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { CodepipelineComponent } from './codepipeline/codepipeline.component';
     FooterComponent,
     NavBarMenuComponent,
     TravisComponent,
-    CodepipelineComponent
+    CodepipelineComponent,
+    GithubComponent,
+    DockersComponent,
+    ZenhubComponent
   ],
   imports: [
     BrowserModule

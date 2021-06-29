@@ -1,0 +1,32 @@
+<div id="dockers" class="container-fluid bg-grey">
+    <div class="row texto">
+        <h2>DOCKERS</h2><br>
+        <h4>
+            Docker es un proyecto desarrollado por dotCloud y fue lanzado en el año 2013 como
+            proyecto de código abierto, este proyecto se basa en un concepto antiguo que se usaba en UNIX,
+            donde se tenían namespaces y cgroups para aislar recursos, empaquetar aplicaciones y sus dependencias, la
+            mayor influencia para el proyecto se basó en los contenedores de Linux LXC que
+            se lanzó en el año 2008. <br>
+            Los contenedores son paquetes de elementos que permiten tener un entorno para correr
+            aplicaciones de forma independiente al sistema operativo del huésped, las aplicaciones corren de
+            forma independiente aislados de otros contenedores y compartiendo los recursos de forma eficiente
+            y sin sobrecarga, es posible tener corriendo uno o decenas de contenedores sin tener ningún
+            problema de desempeño del equipo, a diferencia de las máquinas virtuales que usan una asignación
+            importante de memoria RAM, espacio de disco duro y CPU. <br>
+            Docker se compone de las siguientes partes, Docker Client CLI, Docker Daemon, Docker
+            Hub, Imágenes, Contenedores y Docker Engine. <br>
+            Para correr un contenedor el Docker client CLI (command line interface), conecta con el
+            Docker Daemon, este se encarga de descargar la imagen deseada desde el repositorio de Docker
+            (Docker Hub), a partir de esa imagen se pueden crear contenedores, cuando se corre si el
+            contenedor envía un mensaje el Docker Client lo recibe y este lo envía al terminal.
+            Es posible también crear imágenes propias, y esto se hace cuando se tienen necesidades o
+            características muy específicas, sin embargo, en el Docker Hub se encuentran una gran variedad
+            de imágenes. <br>
+            Docker Engine es la capa por la cual se conecta Docker, y esta necesita correr en sistemas
+            nativos Linux, por lo cual, si se desea correr en otros sistemas operativos como Mac o Windows, se necesita
+            algún tipo de virtualización o algo como el Wsl2 (Subsistema de Windows para Linux)
+            que es una capa adicional que permite que se ejecuten aplicaciones para Linux dentro de Windows. <br>
+        </h4>
+        <div class="text-center"><img src="assets\img\docker.png"></div> 
+    </div>
+</div>
