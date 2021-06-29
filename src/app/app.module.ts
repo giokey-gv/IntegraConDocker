@@ -6,6 +6,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { BodyComponent } from './shared/body/body.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { NavBarMenuComponent } from './shared/nav-bar-menu/nav-bar-menu.component';
+import { TravisComponent } from './travis/travis.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { NavBarMenuComponent } from './shared/nav-bar-menu/nav-bar-menu.componen
     HeaderComponent,
     BodyComponent,
     FooterComponent,
-    NavBarMenuComponent
+    NavBarMenuComponent,
+    TravisComponent
   ],
   imports: [
     BrowserModule

@@ -13,14 +13,13 @@ export class NavBarMenuComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.toggle0()
+    this.toggle0();
   }
 
   toggle0() {this.isValue = 0;}
 
   toggle(num: number) { 
     this.isValue = num;
-    console.log('boton presionado ',num);
   }
 
 }

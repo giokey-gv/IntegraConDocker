@@ -1,15 +1,15 @@
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-fixed-top">
     <div class="container">
         <div class="collapse navbar-collapse" id="myNavbar">
             <img src="assets\img\logo_borde70.png" id="logo" height="50">
             <ul class="nav navbar-nav navbar-right">
-                <li [ngClass]="{ 'active' : isValue == 1 }"><a  (click)="toggle(1)" type="button" href="#inicio">INICIO</a></li>
-                <li [ngClass]="{ 'active' : isValue == 2 }"><a (click)="toggle(2)" type="button" href="#github">GITHUB</a></li>
-                <li [ngClass]="{ 'active' : isValue == 3 }"><a  (click)="toggle(3)" type="button" href="#zenhub">ZENHUB</a></li>
-                <li [ngClass]="{ 'active' : isValue == 4 }"><a  (click)="toggle(4)" type="button" href="#dockers">DOCKERS</a></li>
-                <li [ngClass]="{ 'active' : isValue == 5 }"><a  (click)="toggle(5)" type="button" href="#travis">TRAVIS</a></li>
-                <li [ngClass]="{ 'active' : isValue == 6 }"><a  (click)="toggle(6)" type="button" href="#codepipeline">CODEPIPELINE</a></li>
-                <li [ngClass]="{ 'active' : isValue == 7 }"><a  (click)="toggle(7)" type="button" href="#creadores">CREADORES</a></li>
+                <li [ngClass]="{ 'activo' : isValue === 0 }"><a  (click)="toggle(0)" type="button" href="#inicio">INICIO</a></li>
+                <li [ngClass]="{ 'activo' : isValue === 2 }"><a (click)="toggle(2)" type="button" href="#github">GITHUB</a></li>
+                <li [ngClass]="{ 'activo' : isValue === 3 }"><a  (click)="toggle(3)" type="button" href="#zenhub">ZENHUB</a></li>
+                <li [ngClass]="{ 'activo' : isValue === 4 }"><a  (click)="toggle(4)" type="button" href="#dockers">DOCKERS</a></li>
+                <li [ngClass]="{ 'activo' : isValue === 5 }"><a  (click)="toggle(5)" type="button" href="#travis">TRAVIS</a></li>
+                <li [ngClass]="{ 'activo' : isValue === 6 }"><a  (click)="toggle(6)" type="button" href="#codepipeline">CODEPIPELINE</a></li>
+                <li [ngClass]="{ 'activo' : isValue === 7 }"><a  (click)="toggle(7)" type="button" href="#creadores">CREADORES</a></li>
             </ul>
         </div>
     </div>

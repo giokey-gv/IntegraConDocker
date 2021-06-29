@@ -1,6 +1,13 @@
+
 .jumbotron {
     background-color: #2d0335;
     color: rgb(223, 219, 219);
-    padding: 100px 25px;
+    padding: 100px 28px;
     font-family: Segoe UI;
   }
+  .line-1{
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%); 
+}

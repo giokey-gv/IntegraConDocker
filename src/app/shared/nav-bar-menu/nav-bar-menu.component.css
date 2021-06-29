@@ -13,7 +13,7 @@
   .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
   }
-  .navbar-nav li a:hover, .navbar-nav li.active a {
+  .navbar-nav li a:hover, .navbar-nav li.activo a {
     color: #e6dcdc !important;
     background-color: rgb(82, 0, 82) !important;
   }
